@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:asus = "http://www.ausu.com.tw/product#Computer">
+  
+  <rdf:Description rdf:about="http://140.130.34.14/course/sw/rdf/object#40843238">
+    <rdf:type rdf:resource="http://www.ausu.com.tw/product#Computer"/>
+    <asus:CPU>Intel Pentium G5420</asus:CPU>
+    <asus:WIFI>IEEE Wi-Fi 5</asus:WIFI>
+    <asus:SNumber>SN 1234567</asus:SNumber>
+    <asus:OS>Win10</asus:OS>
+  </rdf:Description>
+</rdf:RDF>

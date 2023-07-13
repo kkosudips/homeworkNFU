@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:project = "http://140.130.34.10/csiewiki/index.php/Lab314-110Project-1"
+        xmlns:ros2="https://docs.ros.org/en/foxy/index.html">
+        
+  <project:大學畢業專題 rdf:about="http://140.130.34.14/course/sw/rdf/object#40843238">
+    <project:hostMachine>
+      <project:OS>Ubuntu 20.04</project:OS>
+
+      <project:virtualMachine>
+        <project:name>virtualBox-UE1</project:name>
+        <project:description>接收來自 UE2 的機器人操作指令、傳輸攝像機影像給 UE1</project:description>
+        <project:virtual5gAddress>60.60.0.1</project:virtual5gAddress>
+        <project:gazebo>
+          <project:robotCommandPort>9090</project:robotCommandPort>
+          <project:cameraImagePort>7000</project:cameraImagePort>
+          <ros2:robot>
+            <ros2:id>robot1</ros2:id>
+            <ros2:version>foxy</ros2:version>
+            <ros2:robotType>burger</ros2:robotType>
+          </ros2:robot>
+          <ros2:robot>
+            <ros2:id>robot2</ros2:id>
+            <ros2:version>foxy</ros2:version>
+            <ros2:robotType>burger</ros2:robotType>
+          </ros2:robot>
+        </project:gazebo>
+      </project:virtualMachine>
+
+      <project:virtualMachine>
+        <project:name>virtualBox-UE2</project:name>
+        <project:description>透過網頁傳輸機器人操作指令給UE1、接收來自 UE1 的攝像機影像顯示在網頁上</project:description>
+        <project:hostonlyAddress>192.168.56.2</project:hostonlyAddress>
+        <project:virtual5gAddress>60.60.0.2</project:virtual5gAddress>
+      </project:virtualMachine>
+
+      <project:virtualMachine>
+        <project:name>virtualBox-5GCN</project:name>
+        <project:description>5G虛擬核心網路，負責處理UE1-UE2間的5G訊號</project:description>
+        <project:hostonlyAddress>192.168.56.1</project:hostonlyAddress>
+      </project:virtualMachine>
+
+
+    </project:hostMachine>
+  </project:大學畢業專題>
+
+</rdf:RDF>
