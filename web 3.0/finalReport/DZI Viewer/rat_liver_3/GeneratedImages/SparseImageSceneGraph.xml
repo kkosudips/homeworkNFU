@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>5.49457330479808</AspectRatio>
+  <SceneNode>
+    <FileName>C:\Users\joeyc\OneDrive\文件\Expression\Deep Zoom Composer Projects\UntitledProject1\Source Images\161114_ratliver_c12_2_1_x3000_256px_000032.png</FileName>
+    <x>0</x>
+    <y>0.0451234458819808</y>
+    <Width>0.231713850775681</Width>
+    <Height>0.954876554118019</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\Users\joeyc\OneDrive\文件\Expression\Deep Zoom Composer Projects\UntitledProject1\Source Images\161114_ratliver_c12_2_1_x3000_256px_000033.png</FileName>
+    <x>0.190016135133702</x>
+    <y>0.0356042892162217</y>
+    <Width>0.231713850775681</Width>
+    <Height>0.954876554118019</Height>
+    <ZOrder>2</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\Users\joeyc\OneDrive\文件\Expression\Deep Zoom Composer Projects\UntitledProject1\Source Images\161114_ratliver_c12_2_1_x3000_256px_000034.png</FileName>
+    <x>0.384655769785274</x>
+    <y>0.0228726018279813</y>
+    <Width>0.231713850775682</Width>
+    <Height>0.954876554118019</Height>
+    <ZOrder>3</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\Users\joeyc\OneDrive\文件\Expression\Deep Zoom Composer Projects\UntitledProject1\Source Images\161114_ratliver_c12_2_1_x3000_256px_000035.png</FileName>
+    <x>0.576791926628917</x>
+    <y>0.0110139397322897</y>
+    <Width>0.231713850775683</Width>
+    <Height>0.954876554118018</Height>
+    <ZOrder>4</ZOrder>
+  </SceneNode>
+  <SceneNode>
+    <FileName>C:\Users\joeyc\OneDrive\文件\Expression\Deep Zoom Composer Projects\UntitledProject1\Source Images\161114_ratliver_c12_2_1_x3000_256px_000036.png</FileName>
+    <x>0.768286149224318</x>
+    <y>0</y>
+    <Width>0.231713850775682</Width>
+    <Height>0.954876554118019</Height>
+    <ZOrder>5</ZOrder>
+  </SceneNode>
+</SceneGraph>

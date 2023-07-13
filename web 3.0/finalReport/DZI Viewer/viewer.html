@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./index.html">Home</a>
+    <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+    <script src="/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon1",
+            prefixUrl: "/openseadragon/images/",
+            tileSources: "/rat_liver_3/GeneratedImages/dzc_output.xml"
+        });
+    </script>
+</body>
+</html>
